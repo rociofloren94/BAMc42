@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 body {
     background: url('fondolineas.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     font-family: 'Rancho', cursive;
 }
 
@@ -68,7 +68,7 @@ img {
 
 figure {
     padding: 4px;
-    margin: 40px;
+    margin: 35px;
     display: inline-block;
 }
 
@@ -84,9 +84,3 @@ label {
     font-size: 30px;
 }
 
-=======
-body {
-    background-image: url(https://www.pexels.com/es-es/foto/arte-creativo-azul-modelo-4155783/);
-    
-}
->>>>>>> b61961ff647cbc512cc2226d0f1474da183622f6
