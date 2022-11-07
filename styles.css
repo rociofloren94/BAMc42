@@ -6,6 +6,18 @@ body {
     font-family: 'Rancho', cursive;
 }
 
+nav {
+    background-color: #fad3b1;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-item {
+    font-size: 30px;
+}
+
+
 .fondo {
     background-color: #fec89a;
     margin-left: 20%;
