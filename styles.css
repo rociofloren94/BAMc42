@@ -9,19 +9,34 @@ body {
 nav {
     background-color: #fad3b1;
 }
-.navbar-brand {
-    font-size: 30px;
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.nav-item {
-    font-size: 30px;
+li {
+    display: inline-block;
+    font-size: 2em;
+    padding: 0.5%;
+    border: 4px solid #050505;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #f7f5f5;
+    cursor: pointer;
 }
 
 
 .fondo {
-    background-color: #fec89a;
+    background-color: #fec89aab;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
 }
 h1 {
     font-size: 90px;
@@ -32,7 +47,7 @@ h1 {
 }
 
 h2 {
-    display: inline-block;
+    display: flex;
     text-align: center;
     font-size: 50px;
     margin-left: 35%;
@@ -40,7 +55,7 @@ h2 {
 }
 
 h3 {
-    display: inline-block;
+    display: flex;
     text-align: center;
     font-size: 40px;
     margin-left: 35%;
@@ -71,11 +86,23 @@ hr {
     margin-bottom: 10%;
 }
 
+.trabajos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     height: 200px;
     width: 200px;
     margin: auto;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 figure {

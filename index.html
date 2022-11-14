@@ -5,36 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocio Florencia: Artes Visuales</title>
-    <link href="./ClaseBootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="styles.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
-<script src="./JS/main.js"></script>
+
 
 </head>
 <body>
 
-    <!-- <nav class="navbar navbar-expand-lg bg-light"> -->
-        <nav class="navbar navbar-expand-lg"
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Rocio Florencia</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li></ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search" style="font-size: 30px;">
-                <button class="btn btn-outline-dark" type="submit" style="font-size: 30px;">Buscar</button>
-              </form>
-              </div>
-              </div>
-              </nav>
-
+    <nav>
+        <ul>
+            <li class="inicio" href="#">Inicio </li>
+            <li class="contacto" href="#">Contáctame</li>
+            <li class="buscar" href="#">Buscar <input type="search" placeholder="búsqueda"></li>
+        </ul>
+    </nav>
     <div class="fondo">
     <h1>Rocio Florencia: Artes Visuales</h1>
     <h2>¡Bienvenido/a!</h2>
@@ -61,7 +47,7 @@
 <hr>
 <section>
     <h3>Trabajos artísticos</h3>
-    <p>
+    <div class="Trabajos">
         <figure>  <img src="./obra1.jpg" alt="obra colores"/> 
 <figcaption class="obratitulo">Título: "Colores"</figcaption>
 </figure>
@@ -71,6 +57,7 @@
     <figure>  <img src="./obra3.jpg" alt="obra frondoso"/>
         <figcaption class="obratitulo">Título: "Frondoso"</figcaption>
 </figure>
+</div>
 </section>
 <hr>
 <section>
@@ -97,6 +84,8 @@
 <hr>
 
     </div>
+
+    <script src="./JS/main.js"></script>
 </body>
 
 </html>
