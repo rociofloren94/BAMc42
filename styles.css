@@ -28,9 +28,13 @@ li:hover {
     cursor: pointer;
 }
 
+a {
+    color: #050505;
+}
+
 
 .fondo {
-    background-color: #fec89aab;
+    background-color: #fec89aaa;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5em;
@@ -79,11 +83,18 @@ h3 {
     font-size: 30px;
 }
 
+
 hr {
     height: 3px;
     background-color: #ff3333;
     border-color: #cc0044;
     margin-bottom: 10%;
+}
+
+.contenedor-trabajos {
+    width: 95%;
+    margin-left: 3%;
+    
 }
 
 .trabajos {
@@ -123,3 +134,72 @@ label {
     font-size: 30px;
 }
 
+.contenedor-contacto {
+    width: 80%;
+    align-items: center;
+    margin: auto 10% auto 10%;
+}
+
+.contenedor-inspiracion {
+    width: 90%;
+    align-items: center;
+    margin: auto 5% auto 5%;
+}
+
+.social {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left:20%;
+    
+}
+
+.social-icon-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fad3b1;
+    width: 20%;
+    height: 40%;
+    margin-left: 30%;
+    border-radius: 6px;
+}
+
+.social-icon {
+    font-size: 50px;
+    color: #050505;
+}
+
+.social-text {
+    font-size: 30px;
+}
+
+.social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: -10%;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #fad3b1;
+    margin-top: 20px;
+}
+
+.footer_contenedor {
+    max-width: 116rem;
+    margin: auto;
+    padding: 0 1.5rem;
+    
+}
+
+.footer_titulo {
+    font-size: 25px;
+    margin-left: 1%;
+}
+
+.footer-texto {
+    font-size: 20px;
+}

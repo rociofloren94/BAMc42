@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/56af3ddf42.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -16,15 +17,15 @@
 
     <nav>
         <ul>
-            <li class="inicio" href="#">Inicio </li>
-            <li class="contacto" href="#">Contáctame</li>
+            <li class="inicio"><a href="#bienvenida">Inicio </a></li>
+            <li class="contacto"><a href="#contacto">Contáctame</a></li>
             <li class="buscar" href="#">Buscar <input type="search" placeholder="búsqueda"></li>
         </ul>
     </nav>
     <div class="fondo">
     <h1>Rocio Florencia: Artes Visuales</h1>
-    <h2>¡Bienvenido/a!</h2>
-    <section class="bienvenida">
+    <h2 id="bienvenida">¡Bienvenido/a!</h2>
+    <section class="bienvenida" >
         <p>Muchas gracias por visitar mi web.</p>
         <p>Soy Rocio y te doy la bienvenida a mi página web donde podrás encontrar imágenes de algunas de mis obras artísticas
             junto con las técnicas que he utilizado para crearlas, para que puedas conocer mis expresiones artísticas
@@ -46,6 +47,7 @@
 </section>
 <hr>
 <section>
+    <div class="contenedor-trabajos">
     <h3>Trabajos artísticos</h3>
     <div class="Trabajos">
         <figure>  <img src="./obra1.jpg" alt="obra colores"/> 
@@ -58,9 +60,11 @@
         <figcaption class="obratitulo">Título: "Frondoso"</figcaption>
 </figure>
 </div>
+</div>
 </section>
 <hr>
 <section>
+    <div class="contenedor-inspiracion">
     <h3>Inspiración</h3>
     <p class="perfil">A continuación, distintos artistas y movimientos que me han inspirado.</p>
 <figure>
@@ -69,9 +73,11 @@
     <figure>
         <iframe src="https://www.youtube.com/embed/u3iZx0JNz7c" title="Expresionismo Abstracto"></iframe>
     </figure>
+</div>
 </section>
 <hr>
-<h3>Contacto</h3>
+<div class="contenedor-contacto">
+<h3 id="contacto">Contacto</h3>
 <p class="perfil">Para comunicarte conmigo, por favor completa el formulario:</p>
 <form>
     <fieldset>
@@ -81,10 +87,23 @@
     </fieldset>
     <input type="submit" value="Enviar"/>
 </form>
-<hr>
 
+<p class="social">O también visita mis redes sociales:
+    <div class="social-icon-contenedor"><a href="https://www.instagram.com/arterocioflorencia" class="social-link">
+    <i class="social-icon fa-brands fa-instagram"></i>
+    <p class="social-text">Instagram</p>
+    </a>
+</div>
+</p>
+</div>
     </div>
 
+    <footer class="footer">
+        <div class="footer_contenedor">
+            <h3 class="footer_titulo">Rocio Florencia</h3>
+            <p class="footer-texto">©2022. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="./JS/main.js"></script>
 </body>
 
